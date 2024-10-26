@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tee_Jvyy Trades' Contact</title>
+    <style>
+        :root {
+            --bg-color: #550073; /* Background color */
+            --text-color: #ffffff; /* Text color */
+            --header-color: #ffffff; /* Header color */
+            --button-bg: #070c27; /* Grey button background color */
+            --button-hover-bg: #3d0641; /* Lighter grey for button hover */
+            --button-padding: 15px 30px;
+            --button-radius: 8px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; /* Center align */
+        }
+
+        h1 {
+            font-size: 2.5rem; /* Responsive font size */
+            font-style: italic;
+            color: var(--header-color);
+            margin-bottom: 30px;
+            padding: 20px;
+        }
+
+        .button-container {
+            display: flex;
+            flex-wrap: wrap; /* Allow buttons to wrap */
+            justify-content: center; /* Center buttons horizontally */
+            align-items: center; /* Center buttons vertically */
+            gap: 20px; /* Space between buttons */
+        }
+
+        .contact-button {
+            display: inline-block;
+            padding: var(--button-padding);
+            font-size: 1.2rem; /* Responsive font size */
+            text-decoration: none;
+            color: var(--text-color);
+            background-color: var(--button-bg);
+            border-radius: var(--button-radius);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+        }
+
+        .contact-button:hover {
+            background-color: var(--button-hover-bg);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgb(234, 0, 255);
+        }
+
+        hr {
+            width: 60%;
+            margin: 20px auto;
+            border: 2px solid var(--text-color);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Tee_Jvyy Trades' Contact</h1>
+    <hr>
+    <div class="button-container">
+        <a href="mailto:mabasoboyza8@gmail.com" class="contact-button">Email</a>
+        <a href="tel:+27679606698" class="contact-button">Call</a>
+        <a href="https://wa.me/+27679606698" class="contact-button">WhatsApp</a>
+        <a href="https://www.instagram.com/tee_jvyy/?hl=en" class="contact-button">Instagram</a>
+    </div>
+</body>
+</html>
